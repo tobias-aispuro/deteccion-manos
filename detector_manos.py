@@ -1,5 +1,6 @@
 import cv2
 import mediapipe as mp
+# boca
 
 # Inicializamos Mediapipe Hands
 mp_hands = mp.solutions.hands
