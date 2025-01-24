@@ -90,7 +90,6 @@ while True:
         deteccion = detectarDedo()
 
         if deteccion is not None:
-            # cv2.putText(frame, f"dedos detectados={sum(deteccion)}", (20, 30), fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(0, 255, 0))
             print(f"Detección: {deteccion}")
 
             # Crear una cadena de todos los dedos y sus estados
